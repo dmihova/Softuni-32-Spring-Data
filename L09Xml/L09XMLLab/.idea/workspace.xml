@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7f9f8c1-680b-4c17-a579-f12ae88d6a52" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../L07SpringDataAutoMappingObjects/GameStore/src/main/java/su/gamestore/model/game/GameDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L07SpringDataAutoMappingObjects/GameStore/src/main/java/su/gamestore/model/game/GameNameDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L07SpringDataAutoMappingObjects/GameStore/src/main/java/su/gamestore/model/game/GameNamePriceDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/L08JSONLab/src/main/java/su/l07objectmappinglab/JSONMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/L08JSONLab/src/main/java/su/l07objectmappinglab/MainJsonToDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/L08JSONLab/src/main/java/su/l07objectmappinglab/config/LocalDateAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/L08JSONLab/src/main/java/su/l07objectmappinglab/model/dto/CompanyDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/L08JSONLab/src/main/java/su/l07objectmappinglab/model/dto/DateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/L08JSONLab/src/main/java/su/l07objectmappinglab/model/dto/addresses/AddressDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/MainQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/MainSeed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/config/LocalDateAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/entity/category/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/entity/category/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/entity/category/CategoryImportDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/entity/category/CategoryStatsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/entity/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/entity/product/ProductImportDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/entity/product/ProductSoldDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/entity/product/ProductWithoutBuyerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/entity/product/ProductWithoutBuyerDTOI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/entity/product/ProductWrappedDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/entity/product/ProductWrapperDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/entity/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/entity/user/UserImportDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/entity/user/UserWithSoldProductsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/entity/user/UserWrapperDetailsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/entity/user/UsersCountWrapperDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/service/SeedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/service/impl/SeedServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L08JSON/ProductsShop/src/main/java/su/productsshop/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/su/L09XmlLab/L09XmlLabApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/su/L09XmlLab/MainXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/su/L09XmlLab/ModelMapperConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/su/L09XmlLab/model/dto/BirthdayDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/su/L09XmlLab/model/dto/addresses/AddressDtlXMLDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/su/L09XmlLab/model/dto/addresses/AddressXMLDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/su/L09XmlLab/model/dto/addresses/CountryXMLDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/su/L09XmlLab/model/entity/Birthday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/files/users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductShop/src/main/java/su/productsshop/entiies/category/CategoryNameDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductShop/src/main/java/su/productsshop/entiies/category/ImportCategoriesXMLDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductShop/src/main/java/su/productsshop/entiies/product/ExportProductXMLDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductShop/src/main/java/su/productsshop/entiies/product/ExportProductsInRangeXMLDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductShop/src/main/java/su/productsshop/entiies/product/ExportSoldProductXMLDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductShop/src/main/java/su/productsshop/entiies/product/ImportProductXMLDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductShop/src/main/java/su/productsshop/entiies/product/ImportProductsXMLDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductShop/src/main/java/su/productsshop/entiies/user/ExportUserWithSoldProductsXMLDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductShop/src/main/java/su/productsshop/entiies/user/ExportUsersWithSoldProductsXMLDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductShop/src/main/java/su/productsshop/entiies/user/ImportUserXMLDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductShop/src/main/java/su/productsshop/entiies/user/ImportUsersXMLDTO.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IM2tmObQGOLBbBepgod0oBAHr3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/SoftUni/Java/projects java/3.2Spring Data/L09Xml/L09XmlLab/src/main/resources/files",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\SoftUni\Java\projects java\3.2Spring Data\L09Xml\L09XmlLab\src\main\resources\files" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7f9f8c1-680b-4c17-a579-f12ae88d6a52" name="Changes" comment="" />
+      <created>1669977349654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669977349654</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/su/L09XmlLab/MainXML.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/su/L09XmlLab/MainXML.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/su/L09XmlLab/MainXML.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/su/L09XmlLab/MainXML.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
