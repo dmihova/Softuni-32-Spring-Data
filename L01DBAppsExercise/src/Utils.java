@@ -3,14 +3,13 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
-enum Utils {
-    ;
-    static   Connection getMySQLConnection() throws SQLException {
+class Utils {
+    static Connection getMySQLConnection() throws SQLException {
         final Properties properties = new Properties();
-        properties.setProperty(Constants.USER_KEY,Constants.USER_VALUE);
-        properties.setProperty(Constants.PASSWORD_KEY,Constants.PASSWORD_VALUE);
-        return   DriverManager.
-                getConnection(Constants.URL_Connection, properties);
+        properties.setProperty(DBAccessSettings.USER_KEY, DBAccessSettings.USER_VALUE);
+        properties.setProperty(DBAccessSettings.PASSWORD_KEY, DBAccessSettings.PASSWORD_VALUE);
+        return DriverManager.
+                getConnection(DBAccessSettings.URL_Connection, properties);
 
     }
 

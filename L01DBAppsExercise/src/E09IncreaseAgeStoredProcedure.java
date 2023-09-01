@@ -8,17 +8,15 @@ public class E09IncreaseAgeStoredProcedure {
     private final static String GET_MINION_BY_ID = "SELECT `name`,age FROM minions WHERE id=?";
     private final static String PROC_UPDATE_MINION_AGE_BY_ID = "{CALL usp_get_older(?)}";
 
-    private final static String COLUMN_LABEL_MINION_NAME = "name";
-    private final static String COLUMN_LABEL_MINION_AGE = "age";
 
-    private final static String REQUEST_MINION_ID = "Input minion id:";
-    private static final String NO_MINION_WITH_ID_EXISTS = "No minion with ID %d exists.%n";
+    private final static String PRINT_REQUEST_MINION_ID = "Input minion id:";
+    private static final String PRINT_NO_MINION_WITH_ID_EXISTS = "No minion with ID %d exists.%n";
     private static final String PRINT_FORMAT_MINION_INFO = "%s %d%n";
 
     public static void main(String[] args) throws SQLException {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print(REQUEST_MINION_ID);
+        System.out.print(PRINT_REQUEST_MINION_ID);
         int minionId = Integer.parseInt(scanner.nextLine());
 
         final Connection connection = Utils.getMySQLConnection();
@@ -32,12 +30,12 @@ public class E09IncreaseAgeStoredProcedure {
         ResultSet resultGetMinion = statementGetMinion.executeQuery();
 
         if (!resultGetMinion.next()) {
-            System.out.printf(NO_MINION_WITH_ID_EXISTS, minionId);
+            System.out.printf(PRINT_NO_MINION_WITH_ID_EXISTS, minionId);
 
         } else {
             System.out.printf(PRINT_FORMAT_MINION_INFO,
-                    resultGetMinion.getString(COLUMN_LABEL_MINION_NAME),
-                    resultGetMinion.getInt(COLUMN_LABEL_MINION_AGE));
+                    resultGetMinion.getString(DBQueries.COLUMN_LABEL_MINION_NAME),
+                    resultGetMinion.getInt(DBQueries.COLUMN_LABEL_MINION_AGE));
         }
         connection.close();
     }

@@ -10,8 +10,7 @@ import java.util.stream.Collectors;
 public class E08IncreaseMinionsAge {
     static final String UPDATE_MINIONS_BY_ID = "UPDATE minions SET age = age + 1, `name` = lower(`name`) WHERE id IN (%s)";
     static final String GET_ALL_MINIONS = "SELECT name, age FROM minions ORDER BY id";
-    private final static String COLUMN_LABEL_MINION_NAME = "name";
-    private final static String COLUMN_LABEL_MINION_AGE = "age";
+
     private final static String PRINT_FORMAT_MINION = "%s %d%n";
 
     public static void main(String[] args) throws SQLException {
@@ -33,8 +32,8 @@ public class E08IncreaseMinionsAge {
         ResultSet resultSetMinions = statementGetMinions.executeQuery();
         while (resultSetMinions.next()) {
             System.out.printf(PRINT_FORMAT_MINION,
-                    resultSetMinions.getString(COLUMN_LABEL_MINION_NAME),
-                    resultSetMinions.getInt(COLUMN_LABEL_MINION_AGE));
+                    resultSetMinions.getString(DBQueries.COLUMN_LABEL_MINION_NAME),
+                    resultSetMinions.getInt(DBQueries.COLUMN_LABEL_MINION_AGE));
         }
 
         connection.close();
