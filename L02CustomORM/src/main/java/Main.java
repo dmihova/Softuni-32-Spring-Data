@@ -9,6 +9,8 @@ import java.sql.SQLException;
 
 public class Main {
     public static void main(String[] args) throws SQLException, IllegalAccessException, InvocationTargetException, NoSuchMethodException, InstantiationException {
+
+
         Connector.createConnection("root","admin", DbUtils.DB_NAME);
         Connection connection = Connector.getConnection();
 
