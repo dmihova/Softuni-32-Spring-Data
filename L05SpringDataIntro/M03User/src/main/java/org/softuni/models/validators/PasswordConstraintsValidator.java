@@ -1,4 +1,4 @@
-
+package org.softuni.models.validators;
 
 import org.passay.*;
 

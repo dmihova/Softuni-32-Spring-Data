@@ -1,0 +1,5 @@
+User1; Fname1; userOne; 1Paz!@1; userOne@gmail.com; 31; Varna; Varna; 01/01/1990
+User2; Fname2; userTwo; 2Paz!@2; userTwo@gmail.com; 32; Varna; Sofia; 01/01/2000
+User3; Fname3; userThree; 3Paz!@3; userThree@yahoo.co.uk; 33; Sofia; Sofia; 01/01/2010
+User4; Fname4; userFour; 4Paz!@4; userFour@yahoo.co.uk; 34; Burgas; Varna; 01/01/2022
+User5; Fname5; userFive; 5Paz!@4; userFive@yahoo.co.uk; 35; Ruse; Veliko Tarnovo; 01/01/2021
